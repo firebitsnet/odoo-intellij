@@ -102,8 +102,6 @@
     <defaultLiveTemplatesProvider implementation="net.firebits.odoo.template.OdooLiveTemplateProvider"/>
     <liveTemplateContext implementation="net.firebits.odoo.template.OdooPythonContextMenu"/>
     <liveTemplateContext implementation="net.firebits.odoo.template.OdooXMLContextMenu"/>
-
-    <configurationType implementation="net.firebits.odoo.run.DemoRunConfigurationType"/>
   </extensions>
 
   <actions>

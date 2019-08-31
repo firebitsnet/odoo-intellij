@@ -1,3 +1,7 @@
+<img src="https://i.ibb.co/C9SRJnH/odoo.png" width="100px"/>
+
+<p></p>
+
 <p>Support for developing <a href="https://www.odoo.com">Odoo</a> applications and modules with IntelliJ IDEA and PyCharm.</p>
 
 <p></p>
