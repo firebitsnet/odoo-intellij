@@ -64,8 +64,8 @@ Installing this plugin will also install the Python plugin if it does not exist.
 <p></p>
 
 <h3>Developed by</h3>
-<p><a href="https://firebits.net">FireBits Software Solutions</a></p>
 <img src="https://i.ibb.co/j4vs0x8/Logo300.png" width="100px"/>
+<p><a href="https://firebits.net">FireBits Software Solutions</a></p>
 
 <h3>Social Media</h3>
 <p><a href="https://github.com/firebitsnetwork">Github</a></p>
