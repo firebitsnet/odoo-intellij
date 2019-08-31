@@ -30,9 +30,6 @@ Installing this plugin will also install the Python plugin if it does not exist.
 <ul>
 <li>Collection of code snippets for Odoo</li>
 <li>Create new projects from the IDE Welcome screen using Odoo CLI or built-in template for Odoo</li>
-<li>Code completion for Odoo in Python files (Soon)</li>
-<li>Completion for components, built-in and custom directives, and methods in templates (Soon)</li>
-<li>Navigation from the component, custom directives and event handlers to their definition (Soon)</li>
 </ul>
 <h3>Coming Soon Features (In Progress)</h3>
 <ul>
