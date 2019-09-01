@@ -1,14 +1,19 @@
 <img src="https://i.ibb.co/C9SRJnH/odoo.png" width="100px"/>
 
 <p></p>
+<p><a href="https://github.com/firebitsnetwork/odoo-intellij/releases/download/master/FireOdoo.jar">Download Plugin JAR</a></p>
+<p></p>
 
-<p>Support for developing <a href="https://www.odoo.com">Odoo</a> applications and modules with IntelliJ IDEA and PyCharm.</p>
+<p>This Plugin Add Support for developing <a href="https://www.odoo.com">Odoo</a> applications and modules with IntelliJ IDEA and PyCharm.</p>
 
 <p></p>
 
 <p>
 Odoo is an all-in-one business software including CRM, website/e-commerce, billing, accounting, manufacturing,
 warehouse - and project management, and inventory .. etc.
+</p>
+
+<p>
 Installing this plugin will also install the Python plugin if it does not exist.
 </p>
 
