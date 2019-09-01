@@ -1,7 +1,3 @@
-<img src="https://i.ibb.co/C9SRJnH/odoo.png" width="100px"/>
-
-<h1>Odoo-Intellij Plugin</h1>
-
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/firebitsnetwork/odoo-intellij/graphs/commit-activity)
 [![GitHub issues](https://img.shields.io/github/issues/firebitsnetwork/odoo-intellij)](https://github.com/firebitsnetwork/odoo-intellij/issues)
 [![Hex.pm](https://img.shields.io/hexpm/l/plug)](https://github.com/firebitsnetwork/odoo-intellij/blob/master/LICENSE)
@@ -9,6 +5,9 @@
 [![JetBrains IntelliJ plugins](https://img.shields.io/jetbrains/plugin/d/12952-odoo)](https://plugins.jetbrains.com/plugin/12952-odoo/)
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/firebitsnetwork/odoo-intellij?include_prereleases)](https://github.com/firebitsnetwork/odoo-intellij/releases/tag/master)
 [![GitHub repo size](https://img.shields.io/github/repo-size/firebitsnetwork/odoo-intellij)](https://github.com/firebitsnetwork/odoo-intellij)
+
+<img src="https://i.ibb.co/C9SRJnH/odoo.png" width="100px"/>
+<h1>Odoo-Intellij Plugin</h1>
 
 <p>
 This <a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Odoo-Intellij Plugin</a> Adds Support for developing 
