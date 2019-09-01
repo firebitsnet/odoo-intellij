@@ -3,8 +3,10 @@
 <h1>Odoo-Intellij Plugin</h1>
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/firebitsnetwork/odoo-intellij/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/firebitsnetwork/odoo-intellij)](https://github.com/firebitsnetwork/odoo-intellij/issues)
 [![Hex.pm](https://img.shields.io/hexpm/l/plug)](https://github.com/firebitsnetwork/odoo-intellij/blob/master/LICENSE)
 [![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/12952-odoo)](https://plugins.jetbrains.com/plugin/12952-odoo/)
+[![JetBrains IntelliJ plugins](https://img.shields.io/jetbrains/plugin/d/12952-odoo)](https://plugins.jetbrains.com/plugin/12952-odoo/)
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/firebitsnetwork/odoo-intellij?include_prereleases)](https://github.com/firebitsnetwork/odoo-intellij/releases/tag/master)
 [![GitHub repo size](https://img.shields.io/github/repo-size/firebitsnetwork/odoo-intellij)](https://github.com/firebitsnetwork/odoo-intellij)
 
@@ -15,17 +17,9 @@ and <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> IDEs.
 </p>
 
 <p></p>
-<p></p>
-
+<h3>Plugin Dependencies</h3>
 <p>
-Odoo is an all-in-one business software including CRM, website/e-commerce, billing, accounting, manufacturing,
-warehouse - and project management, and inventory .. etc.
-</p>
-
-<p></p>
-
-<p>
-Installing this plugin will also install the <a href="https://plugins.jetbrains.com/plugin/631-python"> Python plugin </a> if it does not exist.
+Installing this plugin will also install the <a href="https://plugins.jetbrains.com/plugin/631-python"> Python plugin </a> if it is not already installed in your IDE.
 </p>
 
 <p></p>
@@ -36,6 +30,24 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 
 <p></p>
 
+<h2>What is Odoo?</h2>
+
+<p>
+Odoo is a suite of open source business apps that cover all your company needs:
+</p>
+
+<ul>
+<li>CRM</li>
+<li>Website / eCommerce</li>
+<li>Accounting</li>
+<li>Inventory</li>
+<li>Manufacturing</li>
+<li>Point of sale</li>
+<li>Project management</li>
+<li>etc</li>
+</ul>
+
+<p></p>
 
 <h3>Supported Odoo Versions</h3>
 <p>Download Odoo from <a href="https://www.odoo.com/page/download">here</a></p>
@@ -105,8 +117,15 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 <p></p>
 
 <h2>Developed & Maintained by</h2>
-<img src="https://i.ibb.co/j4vs0x8/Logo300.png" width="100px"/>
+![GitHub search hit counter](https://img.shields.io/github/search/firebitsnetwork/odoo-intellij/goto)
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/firebitsnetwork/odoo-intellij)
+![GitHub contributors](https://img.shields.io/github/contributors/firebitsnetwork/odoo-intellij)
+![GitHub last commit](https://img.shields.io/github/last-commit/firebitsnetwork/odoo-intellij)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/firebitsnetwork/odoo-intellij)
+
+<p><img src="https://i.ibb.co/j4vs0x8/Logo300.png" width="100px"/></p>
 <p><a href="https://firebits.net">FireBits Software Solutions</a></p>
+
 
 <h3>Social Media</h3>
 <p><a href="https://github.com/firebitsnetwork">Github</a></p>
