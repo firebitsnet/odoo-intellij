@@ -54,7 +54,7 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 <li>Navigation from the component, custom directives and event handlers to their definition (Soon)</li>
 </ul>
 
-<h3>Documentation</h3>
+<h3>Odoo Documentation</h3>
 <p>Here you can find more information on using Odoo 12.</p>
 
 <ul>
@@ -64,6 +64,13 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 
 <p></p>
 <p>Ask Questions On The Official Odoo <a href="https://www.odoo.com/forum/help-1">Forum</a></p>
+<p></p>
+
+<h3>Plugin Documentation</h3>
+<ul>
+<li>Plugin <a href="https://github.com/firebitsnetwork/odoo-intellij/wiki">Wiki</a></li>
+</ul>
+
 <p></p>
 
 <h2>Help & Feedback</h2>
@@ -76,6 +83,14 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 
 <h3>Bug Tracker</h3>
 <p>Please report any issues on the <a href="https://github.com/firebitsnetwork/odoo-intellij/issues">tracker</a>.</p>
+
+<p></p>
+
+<h3>Special Thanks For Contributors</h3>
+<ul>
+<li>Mohamed Magdy (<a href="https://github.com/mohamedmagdy/odoo-pycharm-templates">Live Templates</a> Feature)</li>
+<li>Robin Keunen (<a href="https://github.com/robinkeunen/odoo-pycharm-templates/tree/template-variables">Live Templates Variables</a> Feature)</li>
+</ul>
 
 <p></p>
 
