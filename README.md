@@ -1,12 +1,9 @@
 <img src="https://i.ibb.co/C9SRJnH/odoo.png" width="100px"/>
 
-<p></p>
+<h1>Odoo-Intellij Plugin</h1>
 
-<p><a href="https://github.com/firebitsnetwork/odoo-intellij/releases/download/master/FireOdoo.jar">Download Plugin JAR</a></p>
-<p><a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Download Plugin From JetBrains's Store</a></p>
-
-<p></p>
-<p></p>
+![Hex.pm](https://img.shields.io/hexpm/l/plug)
+![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/12952-odoo)
 
 <p>
 This <a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Odoo-Intellij Plugin</a> Adds Support for developing 
@@ -28,6 +25,15 @@ warehouse - and project management, and inventory .. etc.
 Installing this plugin will also install the <a href="https://plugins.jetbrains.com/plugin/631-python"> Python plugin </a> if it does not exist.
 </p>
 
+<p></p>
+<h3>Download plugin</h3>
+
+<p><a href="https://github.com/firebitsnetwork/odoo-intellij/releases/download/master/FireOdoo.jar">Download Plugin JAR</a></p>
+<p><a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Download Plugin From JetBrains's Store</a></p>
+
+<p></p>
+
+
 <h3>Supported Odoo Versions</h3>
 <p>Download Odoo from <a href="https://www.odoo.com/page/download">here</a></p>
 
@@ -42,19 +48,22 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 <li>Make sure that you have Python files in your project (for example, in the __manifest__.py and __init__.py files) – this is required for the IDE to enable Odoo support for this project.</li>
 <li>Now, you will get Odoo-specific code completion, navigation, and many other features.</li>
 </ul>
-<h2>Current Features</h2>
+<h2>Plugin Features</h2>
+<h4>Current Features</h4>
 <ul>
 <li>Collection of code snippets for Odoo</li>
 <li>Create new projects from the IDE Welcome screen using Odoo CLI or built-in template for Odoo</li>
 </ul>
-<h3>Coming Soon Features (In Progress)</h3>
+<h4>Coming Soon Features (In Progress)</h4>
 <ul>
 <li>Code completion for Odoo in Python files (Soon)</li>
 <li>Completion for components, built-in and custom directives, and methods in templates (Soon)</li>
 <li>Navigation from the component, custom directives and event handlers to their definition (Soon)</li>
 </ul>
 
-<h3>Odoo Documentation</h3>
+<h2>Documentation & Tutorials</h2>
+
+<h4>Odoo Documentation</h4>
 <p>Here you can find more information on using Odoo 12.</p>
 
 <ul>
@@ -66,7 +75,7 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 <p>Ask Questions On The Official Odoo <a href="https://www.odoo.com/forum/help-1">Forum</a></p>
 <p></p>
 
-<h3>Plugin Documentation</h3>
+<h4>Plugin Documentation</h4>
 <ul>
 <li>Plugin <a href="https://github.com/firebitsnetwork/odoo-intellij/wiki">Wiki</a></li>
 </ul>
@@ -94,7 +103,7 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 
 <p></p>
 
-<h3>Developed by</h3>
+<h2>Developed & Maintained by</h2>
 <img src="https://i.ibb.co/j4vs0x8/Logo300.png" width="100px"/>
 <p><a href="https://firebits.net">FireBits Software Solutions</a></p>
 
