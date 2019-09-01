@@ -2,8 +2,11 @@
 
 <h1>Odoo-Intellij Plugin</h1>
 
-![Hex.pm](https://img.shields.io/hexpm/l/plug)
-![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/12952-odoo)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/firebitsnetwork/odoo-intellij/graphs/commit-activity)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug)](https://github.com/firebitsnetwork/odoo-intellij/blob/master/LICENSE)
+[![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/12952-odoo)](https://plugins.jetbrains.com/plugin/12952-odoo/)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/firebitsnetwork/odoo-intellij?include_prereleases)](https://github.com/firebitsnetwork/odoo-intellij/releases/tag/master)
+[![GitHub repo size](https://img.shields.io/github/repo-size/firebitsnetwork/odoo-intellij)](https://github.com/firebitsnetwork/odoo-intellij)
 
 <p>
 This <a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Odoo-Intellij Plugin</a> Adds Support for developing 
@@ -37,10 +40,8 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 <h3>Supported Odoo Versions</h3>
 <p>Download Odoo from <a href="https://www.odoo.com/page/download">here</a></p>
 
-<ul>
-<li><a href="https://www.odoo.com/documentation/12.0/">Odoo 12</a></li>
-<li><a href="https://www.odoo.com/documentation/11.0/">Odoo 11</a></li>
-</ul>
+[![Hex.pm](https://img.shields.io/badge/Odoo-v12-blue)](https://www.odoo.com/documentation/12.0/)
+[![Hex.pm](https://img.shields.io/badge/Odoo-v11-blue)](https://www.odoo.com/documentation/11.0/)
 
 <h2>Getting started</h2>
 <ul>
