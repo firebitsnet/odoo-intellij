@@ -8,7 +8,11 @@
 <p></p>
 <p></p>
 
-<p>This <a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Odoo-Intellij Plugin</a> Adds Support for developing <a href="https://www.odoo.com">Odoo</a> applications and modules with IntelliJ IDEA and PyCharm.</p>
+<p>
+This <a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Odoo-Intellij Plugin</a> Adds Support for developing 
+<a href="https://www.odoo.com">Odoo</a> applications and modules with <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA </a>
+and <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> IDEs.
+</p>
 
 <p></p>
 <p></p>
