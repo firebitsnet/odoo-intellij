@@ -117,6 +117,7 @@ Odoo is a suite of open source business apps that cover all your company needs:
 <p></p>
 
 <h2>Developed & Maintained by</h2>
+
 ![GitHub search hit counter](https://img.shields.io/github/search/firebitsnetwork/odoo-intellij/goto)
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/firebitsnetwork/odoo-intellij)
 ![GitHub contributors](https://img.shields.io/github/contributors/firebitsnetwork/odoo-intellij)
@@ -125,7 +126,6 @@ Odoo is a suite of open source business apps that cover all your company needs:
 
 <p><img src="https://i.ibb.co/j4vs0x8/Logo300.png" width="100px"/></p>
 <p><a href="https://firebits.net">FireBits Software Solutions</a></p>
-
 
 <h3>Social Media</h3>
 <p><a href="https://github.com/firebitsnetwork">Github</a></p>
