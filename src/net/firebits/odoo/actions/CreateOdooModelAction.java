@@ -31,10 +31,10 @@ public class CreateOdooModelAction extends CreateFileFromTemplateAction implemen
   protected void buildDialog(Project project, PsiDirectory directory, CreateFileFromTemplateDialog.Builder builder) {
     builder
       .setTitle("New Odoo Model file")
-      .addKind("Python file", PythonFileType.INSTANCE.getIcon(), "OdooInit")
-      .addKind("Python file", PythonFileType.INSTANCE.getIcon(), "OdooController")
-      .addKind("Python file", PythonFileType.INSTANCE.getIcon(), "OdooManifest")
-      .addKind("Python file", PythonFileType.INSTANCE.getIcon(), "OdooModel");
+      .addKind("__init__", PythonFileType.INSTANCE.getIcon(), "OdooInit")
+      .addKind("__manifest__", PythonFileType.INSTANCE.getIcon(), "OdooManifest")
+      .addKind("Odoo Model", PythonFileType.INSTANCE.getIcon(), "OdooModel")
+      .addKind("Odoo Controller", PythonFileType.INSTANCE.getIcon(), "OdooController");
   }
 
   @Override

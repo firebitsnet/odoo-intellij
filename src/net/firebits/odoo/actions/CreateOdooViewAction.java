@@ -18,7 +18,6 @@ public class CreateOdooViewAction extends CreateFileFromTemplateAction implement
 
   @NonNls private static final String DEFAULT_ODOO_VIEW_TEMPLATE_PROPERTY = "DefaultOdooViewFileTemplate";
 
-
   public CreateOdooViewAction() {
     super("Odoo View File", "Creates an Odoo View XML file from the specified template", XmlFileType.INSTANCE.getIcon());
   }
@@ -31,16 +30,16 @@ public class CreateOdooViewAction extends CreateFileFromTemplateAction implement
   @Override
   protected void buildDialog(Project project, PsiDirectory directory, CreateFileFromTemplateDialog.Builder builder) {
     builder
-      .setTitle("New Odoo View file")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewEmpty")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewBasic")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewAdvanced")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewInherit")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewReport")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewSecurity")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewSequence")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewSettings")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewCronJob");
+      .setTitle("New Odoo XML View file")
+      .addKind("Empty View", XmlFileType.INSTANCE.getIcon(), "OdooViewEmpty")
+      .addKind("Basic View", XmlFileType.INSTANCE.getIcon(), "OdooViewBasic")
+      .addKind("Advanced View", XmlFileType.INSTANCE.getIcon(), "OdooViewAdvanced")
+      .addKind("Inherit View", XmlFileType.INSTANCE.getIcon(), "OdooViewInherit")
+      .addKind("Report View", XmlFileType.INSTANCE.getIcon(), "OdooViewReport")
+      .addKind("Security View", XmlFileType.INSTANCE.getIcon(), "OdooViewSecurity")
+      .addKind("Sequence View", XmlFileType.INSTANCE.getIcon(), "OdooViewSequence")
+      .addKind("Settings View", XmlFileType.INSTANCE.getIcon(), "OdooViewSettings")
+      .addKind("Cron Job View", XmlFileType.INSTANCE.getIcon(), "OdooViewCronJob");
   }
 
   @Override

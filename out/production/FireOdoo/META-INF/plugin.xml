@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>net.firebits.odoo</id>
   <name>Odoo</name>
-  <version>1.1</version>
+  <version>1.1.1</version>
   <vendor email="tech@firebits.net" url="http://www.firebits.net">FireBits</vendor>
   <description>
       <![CDATA[
@@ -60,6 +60,7 @@
         <h4>Current Features</h4>
         <ul>
         <li>Collection of code snippets for Odoo</li>
+        <li>Create New Odoo Files in New Menu (Model - View - Manifest)</li>
         <li>Create new projects from the IDE Welcome screen using Odoo CLI or built-in template for Odoo</li>
         </ul>
         <h4>Coming Soon Features (In Progress)</h4>
@@ -132,9 +133,8 @@
   <category>Framework</category>
 
   <change-notes>
-    v1.0.1 First Implementation
-
-    Odoo Live Templates
+    v1.0.1 Odoo Live Templates
+    v1.1.1 Create New Odoo Files (Model - View - Manifest)
   </change-notes>
 
   <idea-version since-build="173.0"/>
@@ -149,29 +149,39 @@
     <liveTemplateContext implementation="net.firebits.odoo.template.OdooXMLContextMenu"/>
 
     <internalFileTemplate name="OdooManifest"/>
+    <internalFileTemplate name="OdooInit"/>
     <internalFileTemplate name="OdooModel"/>
-    <internalFileTemplate name="OdooView"/>
+    <internalFileTemplate name="OdooController"/>
+    <internalFileTemplate name="OdooAccess"/>
+    <internalFileTemplate name="OdooViewEmpty"/>
+    <internalFileTemplate name="OdooViewBasic"/>
+    <internalFileTemplate name="OdooViewAdvanced"/>
+    <internalFileTemplate name="OdooViewInherit"/>
+    <internalFileTemplate name="OdooViewReport"/>
+    <internalFileTemplate name="OdooViewSecurity"/>
+    <internalFileTemplate name="OdooViewSequence"/>
+    <internalFileTemplate name="OdooViewSettings"/>
+    <internalFileTemplate name="OdooViewCronJob"/>
 
     <moduleBuilder builderClass="net.firebits.odoo.project_wizard.OdooModuleBuilder" id="DEMO_STEP" order="first"/>
     <moduleType id="FIRE_ODOO_MOULE_TYPE" implementationClass="net.firebits.odoo.project_wizard.OdooModuleType"/>
   </extensions>
 
   <actions>
-    <group id="org.intellij.sdk.action.GroupedActions" text="Odoo File" popup="true" icon="OdooIcons.OdooIcon">
+    <group id="org.intellij.sdk.action.GroupedActions" text="New Odoo File" popup="true" icon="OdooIcons.OdooIcon">
       <add-to-group group-id="NewGroup" anchor="first"/>
       <action class="net.firebits.odoo.actions.CreateOdooModelAction" id="odoo_model"
-              text="Odoo Model" description="Make a python class with odoo fields and models" icon="OdooIcons.OdooIcon">
+              text="New Model" description="Make a python class with odoo fields and models" icon="OdooIcons.OdooIcon">
         <keyboard-shortcut first-keystroke="control alt A" keymap="$default"/>
-        <mouse-shortcut keystroke="control button3 doubleClick" keymap="$default"/>
       </action>
-      <action class="net.firebits.odoo.actions.CreateOdooViewAction" id="odoo_xml"
-              text="Odoo XML" description="Make a XML file with odoo and data tags" icon="OdooIcons.OdooIcon">
+      <action class="net.firebits.odoo.actions.CreateOdooViewAction" id="odoo_view"
+              text="New View" description="Make an XML file with odoo and data tags" icon="OdooIcons.OdooIcon">
         <keyboard-shortcut first-keystroke="control alt Q" keymap="$default"/>
       </action>
-      <action class="net.firebits.odoo.actions.CreateOdooManifestAction" id="odoo_manifest"
-              text="Odoo Manifest" description="Make a python class with odoo manifest json object" icon="OdooIcons.OdooIcon">
-        <keyboard-shortcut first-keystroke="control alt Z" keymap="$default"/>
-      </action>
+        <action class="net.firebits.odoo.actions.CreateOdooAccessAction" id="odoo_access"
+                text="New Security Access" description="Make a csv file with odoo groups" icon="OdooIcons.OdooIcon">
+            <keyboard-shortcut first-keystroke="control alt Z" keymap="$default"/>
+        </action>
     </group>
   </actions>
 
