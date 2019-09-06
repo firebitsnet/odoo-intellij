@@ -5,23 +5,50 @@
   <vendor email="tech@firebits.net" url="http://www.firebits.net">FireBits</vendor>
   <description>
       <![CDATA[
-        <p>Support for developing <a href="https://www.odoo.com">Odoo</a> applications and modules with IntelliJ IDEA and PyCharm.</p>
+        <p>
+        This <a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Odoo-Intellij Plugin</a> Adds Support for developing
+        <a href="https://www.odoo.com">Odoo</a> applications and modules with <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA </a>
+        and <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> IDEs.
+        </p>
+
+        <p></p>
+        <h3>Plugin Dependencies</h3>
+        <p>
+        Installing this plugin will also install the <a href="https://plugins.jetbrains.com/plugin/631-python"> Python plugin </a> if it is not already installed in your IDE.
+        </p>
+
+        <p></p>
+        <h3>Download plugin</h3>
+
+        <p><a href="https://github.com/firebitsnetwork/odoo-intellij/releases/download/master/FireOdoo.jar">Download Plugin JAR</a></p>
+        <p><a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Download Plugin From JetBrains's Store</a></p>
 
         <p></p>
 
+        <h2>What is Odoo?</h2>
+
         <p>
-        Odoo is an all-in-one business software including CRM, website/e-commerce, billing, accounting, manufacturing,
-        warehouse - and project management, and inventory .. etc.
-        Installing this plugin will also install the Python plugin if it does not exist.
+        Odoo is a suite of open source business apps that cover all your company needs:
         </p>
+
+        <ul>
+        <li>CRM</li>
+        <li>Website / eCommerce</li>
+        <li>Accounting</li>
+        <li>Inventory</li>
+        <li>Manufacturing</li>
+        <li>Point of sale</li>
+        <li>Project management</li>
+        <li>etc</li>
+        </ul>
+
+        <p></p>
 
         <h3>Supported Odoo Versions</h3>
         <p>Download Odoo from <a href="https://www.odoo.com/page/download">here</a></p>
 
-        <ul>
-        <li><a href="https://www.odoo.com/documentation/12.0/">Odoo 12</a></li>
-        <li><a href="https://www.odoo.com/documentation/11.0/">Odoo 11</a></li>
-        </ul>
+        [![Hex.pm](https://img.shields.io/badge/Odoo-v12-blue)](https://www.odoo.com/documentation/12.0/)
+        [![Hex.pm](https://img.shields.io/badge/Odoo-v11-blue)](https://www.odoo.com/documentation/11.0/)
 
         <h2>Getting started</h2>
         <ul>
@@ -29,19 +56,22 @@
         <li>Make sure that you have Python files in your project (for example, in the __manifest__.py and __init__.py files) – this is required for the IDE to enable Odoo support for this project.</li>
         <li>Now, you will get Odoo-specific code completion, navigation, and many other features.</li>
         </ul>
-        <h2>Current Features</h2>
+        <h2>Plugin Features</h2>
+        <h4>Current Features</h4>
         <ul>
         <li>Collection of code snippets for Odoo</li>
         <li>Create new projects from the IDE Welcome screen using Odoo CLI or built-in template for Odoo</li>
         </ul>
-        <h3>Coming Soon Features (In Progress)</h3>
+        <h4>Coming Soon Features (In Progress)</h4>
         <ul>
         <li>Code completion for Odoo in Python files (Soon)</li>
         <li>Completion for components, built-in and custom directives, and methods in templates (Soon)</li>
         <li>Navigation from the component, custom directives and event handlers to their definition (Soon)</li>
         </ul>
 
-        <h3>Documentation</h3>
+        <h2>Documentation & Tutorials</h2>
+
+        <h4>Odoo Documentation</h4>
         <p>Here you can find more information on using Odoo 12.</p>
 
         <ul>
@@ -51,6 +81,13 @@
 
         <p></p>
         <p>Ask Questions On The Official Odoo <a href="https://www.odoo.com/forum/help-1">Forum</a></p>
+        <p></p>
+
+        <h4>Plugin Documentation</h4>
+        <ul>
+        <li>Plugin <a href="https://github.com/firebitsnetwork/odoo-intellij/wiki">Wiki</a></li>
+        </ul>
+
         <p></p>
 
         <h2>Help & Feedback</h2>
@@ -66,9 +103,23 @@
 
         <p></p>
 
-        <h3>Developed by</h3>
+        <h3>Special Thanks For Contributors</h3>
+        <ul>
+        <li>Mohamed Magdy (<a href="https://github.com/mohamedmagdy/odoo-pycharm-templates">Live Templates</a> Feature)</li>
+        <li>Robin Keunen (<a href="https://github.com/robinkeunen/odoo-pycharm-templates/tree/template-variables">Live Templates Variables</a> Feature)</li>
+        </ul>
+
+        <p></p>
+
+        <h2>Developed & Maintained by</h2>
+        ![GitHub search hit counter](https://img.shields.io/github/search/firebitsnetwork/odoo-intellij/goto)
+        ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/firebitsnetwork/odoo-intellij)
+        ![GitHub contributors](https://img.shields.io/github/contributors/firebitsnetwork/odoo-intellij)
+        ![GitHub last commit](https://img.shields.io/github/last-commit/firebitsnetwork/odoo-intellij)
+        ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/firebitsnetwork/odoo-intellij)
+
+        <p><img src="https://i.ibb.co/j4vs0x8/Logo300.png" width="100px"/></p>
         <p><a href="https://firebits.net">FireBits Software Solutions</a></p>
-        <img src="https://i.ibb.co/j4vs0x8/Logo300.png" width="100px"/>
 
         <h3>Social Media</h3>
         <p><a href="https://github.com/firebitsnetwork">Github</a></p>
@@ -86,32 +137,42 @@
     Odoo Live Templates
   </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
   <idea-version since-build="173.0"/>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
-  <!-- uncomment to enable plugin in all products
-  <depends>com.intellij.modules.lang</depends>
-  -->
-  <!-- Product and plugin compatibility requirements -->
   <depends>com.intellij.modules.python</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
+    <framework.type implementation="net.firebits.odoo.framwork.OdooFramework"/>
+
     <defaultLiveTemplatesProvider implementation="net.firebits.odoo.template.OdooLiveTemplateProvider"/>
     <liveTemplateContext implementation="net.firebits.odoo.template.OdooPythonContextMenu"/>
     <liveTemplateContext implementation="net.firebits.odoo.template.OdooXMLContextMenu"/>
 
-    <configurationType implementation="net.firebits.odoo.run.DemoRunConfigurationType"/>
+    <internalFileTemplate name="OdooManifest"/>
+    <internalFileTemplate name="OdooModel"/>
+    <internalFileTemplate name="OdooView"/>
+
+    <moduleBuilder builderClass="net.firebits.odoo.project_wizard.OdooModuleBuilder" id="DEMO_STEP" order="first"/>
+    <moduleType id="FIRE_ODOO_MOULE_TYPE" implementationClass="net.firebits.odoo.project_wizard.OdooModuleType"/>
   </extensions>
 
   <actions>
-      <action id="FireOdoo.OdooAction"
-              class="net.firebits.odoo.actions.OdooGettingStartedAction"
-              text="Odoo"
-              description="This is just a demo"
-              icon="OdooIcons.Odoo"/>
+    <group id="org.intellij.sdk.action.GroupedActions" text="Odoo File" popup="true" icon="OdooIcons.OdooIcon">
+      <add-to-group group-id="NewGroup" anchor="first"/>
+      <action class="net.firebits.odoo.actions.CreateOdooModelAction" id="odoo_model"
+              text="Odoo Model" description="Make a python class with odoo fields and models" icon="OdooIcons.OdooIcon">
+        <keyboard-shortcut first-keystroke="control alt A" keymap="$default"/>
+        <mouse-shortcut keystroke="control button3 doubleClick" keymap="$default"/>
+      </action>
+      <action class="net.firebits.odoo.actions.CreateOdooViewAction" id="odoo_xml"
+              text="Odoo XML" description="Make a XML file with odoo and data tags" icon="OdooIcons.OdooIcon">
+        <keyboard-shortcut first-keystroke="control alt Q" keymap="$default"/>
+      </action>
+      <action class="net.firebits.odoo.actions.CreateOdooManifestAction" id="odoo_manifest"
+              text="Odoo Manifest" description="Make a python class with odoo manifest json object" icon="OdooIcons.OdooIcon">
+        <keyboard-shortcut first-keystroke="control alt Z" keymap="$default"/>
+      </action>
+    </group>
   </actions>
 
 </idea-plugin>

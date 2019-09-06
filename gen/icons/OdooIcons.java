@@ -10,5 +10,6 @@ public class OdooIcons {
   }
 
   public static final Icon Odoo = load("/icons/odoo.png");
+  public static final Icon OdooIcon = load("/icons/odoo_small.png");
   public static final Icon FireBits = load("/icons/firebits.png");
 }

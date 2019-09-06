@@ -1,0 +1,8 @@
+from odoo import fields, models, api
+class $class_name$(models.Model):
+    _name = '$module_name$'
+    _description = '$class_name$'
+
+    name = fields.Char()
+    $END$
+
