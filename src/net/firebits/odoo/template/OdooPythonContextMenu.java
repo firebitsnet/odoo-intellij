@@ -4,6 +4,9 @@ import com.intellij.codeInsight.template.TemplateContextType;
 import com.intellij.psi.PsiFile;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * @author Amr Abd-Alkrim
+ */
 public class OdooPythonContextMenu extends TemplateContextType {
     protected OdooPythonContextMenu() {
         super("Python", "Python");

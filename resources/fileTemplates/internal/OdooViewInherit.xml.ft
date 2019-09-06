@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="example_form_inherit" model="ir.ui.view">
+            <field name="name">example.example.form</field>
+            <field name="model">example.example</field>
+            <field name="inherit_id" ref="example.view_example_form"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='example_field']" position="replace">
+                    <field name="example_field2"/>
+                </xpath>
+                <xpath expr="//field[@name='example_field']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+            </field>
+        </record>
+    
+    </data>
+</odoo>

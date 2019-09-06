@@ -23,7 +23,7 @@ import java.io.IOException;
 import static java.util.Arrays.asList;
 
 /**
- * @author Anna Bulenkova
+ * @author Amr Abd-Alkrim
  */
 public class OdooModuleBuilder extends ModuleBuilder {
 

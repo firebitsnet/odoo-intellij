@@ -149,29 +149,39 @@
     <liveTemplateContext implementation="net.firebits.odoo.template.OdooXMLContextMenu"/>
 
     <internalFileTemplate name="OdooManifest"/>
+    <internalFileTemplate name="OdooInit"/>
     <internalFileTemplate name="OdooModel"/>
-    <internalFileTemplate name="OdooView"/>
+    <internalFileTemplate name="OdooController"/>
+    <internalFileTemplate name="OdooAccess"/>
+    <internalFileTemplate name="OdooViewEmpty"/>
+    <internalFileTemplate name="OdooViewBasic"/>
+    <internalFileTemplate name="OdooViewAdvanced"/>
+    <internalFileTemplate name="OdooViewInherit"/>
+    <internalFileTemplate name="OdooViewReport"/>
+    <internalFileTemplate name="OdooViewSecurity"/>
+    <internalFileTemplate name="OdooViewSequence"/>
+    <internalFileTemplate name="OdooViewSettings"/>
+    <internalFileTemplate name="OdooViewCronJob"/>
 
     <moduleBuilder builderClass="net.firebits.odoo.project_wizard.OdooModuleBuilder" id="DEMO_STEP" order="first"/>
     <moduleType id="FIRE_ODOO_MOULE_TYPE" implementationClass="net.firebits.odoo.project_wizard.OdooModuleType"/>
   </extensions>
 
   <actions>
-    <group id="org.intellij.sdk.action.GroupedActions" text="Odoo File" popup="true" icon="OdooIcons.OdooIcon">
+    <group id="org.intellij.sdk.action.GroupedActions" text="New Odoo File" popup="true" icon="OdooIcons.OdooIcon">
       <add-to-group group-id="NewGroup" anchor="first"/>
       <action class="net.firebits.odoo.actions.CreateOdooModelAction" id="odoo_model"
-              text="Odoo Model" description="Make a python class with odoo fields and models" icon="OdooIcons.OdooIcon">
+              text="New Model" description="Make a python class with odoo fields and models" icon="OdooIcons.OdooIcon">
         <keyboard-shortcut first-keystroke="control alt A" keymap="$default"/>
-        <mouse-shortcut keystroke="control button3 doubleClick" keymap="$default"/>
       </action>
-      <action class="net.firebits.odoo.actions.CreateOdooViewAction" id="odoo_xml"
-              text="Odoo XML" description="Make a XML file with odoo and data tags" icon="OdooIcons.OdooIcon">
+      <action class="net.firebits.odoo.actions.CreateOdooViewAction" id="odoo_view"
+              text="New View" description="Make an XML file with odoo and data tags" icon="OdooIcons.OdooIcon">
         <keyboard-shortcut first-keystroke="control alt Q" keymap="$default"/>
       </action>
-      <action class="net.firebits.odoo.actions.CreateOdooManifestAction" id="odoo_manifest"
-              text="Odoo Manifest" description="Make a python class with odoo manifest json object" icon="OdooIcons.OdooIcon">
-        <keyboard-shortcut first-keystroke="control alt Z" keymap="$default"/>
-      </action>
+        <action class="net.firebits.odoo.actions.CreateOdooAccessAction" id="odoo_access"
+                text="New Security Access" description="Make a csv file with odoo groups" icon="OdooIcons.OdooIcon">
+            <keyboard-shortcut first-keystroke="control alt Z" keymap="$default"/>
+        </action>
     </group>
   </actions>
 

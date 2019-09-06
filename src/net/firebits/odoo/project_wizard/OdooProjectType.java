@@ -2,6 +2,9 @@ package net.firebits.odoo.project_wizard;
 
 import net.firebits.odoo.OdooBundle;
 
+/**
+ * @author Amr Abd-Alkrim
+ */
 public enum OdooProjectType {
   APP(OdooBundle.message("odoo.module.create.settings.type.application"), "app"),
   PLUGIN(OdooBundle.message("odoo.module.create.settings.type.plugin"), "plugin"),

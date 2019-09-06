@@ -1,4 +1,3 @@
-// Copyright 2000-2017 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file.
 package net.firebits.odoo.actions;
 
 import com.intellij.ide.IdeBundle;
@@ -12,7 +11,7 @@ import org.jetbrains.annotations.NonNls;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * @author yole
+ * @author Amr Abd-Alkrim
  */
 public class CreateOdooModelAction extends CreateFileFromTemplateAction implements DumbAware {
 
@@ -32,6 +31,9 @@ public class CreateOdooModelAction extends CreateFileFromTemplateAction implemen
   protected void buildDialog(Project project, PsiDirectory directory, CreateFileFromTemplateDialog.Builder builder) {
     builder
       .setTitle("New Odoo Model file")
+      .addKind("Python file", PythonFileType.INSTANCE.getIcon(), "OdooInit")
+      .addKind("Python file", PythonFileType.INSTANCE.getIcon(), "OdooController")
+      .addKind("Python file", PythonFileType.INSTANCE.getIcon(), "OdooManifest")
       .addKind("Python file", PythonFileType.INSTANCE.getIcon(), "OdooModel");
   }
 

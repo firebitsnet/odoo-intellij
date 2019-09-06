@@ -15,7 +15,7 @@ import org.jetbrains.annotations.*;
 import javax.swing.*;
 
 /**
- * @author Anna Bulenkova
+ * @author Amr Abd-Alkrim
  */
 public class OdooFramework extends FrameworkTypeEx {
   public static final String FRAMEWORK_ID = "Odoo";

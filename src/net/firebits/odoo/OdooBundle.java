@@ -9,6 +9,9 @@ import java.lang.ref.Reference;
 import java.lang.ref.SoftReference;
 import java.util.ResourceBundle;
 
+/**
+ * @author Amr Abd-Alkrim
+ */
 public class OdooBundle {
 
   private static Reference<ResourceBundle> ourBundle;

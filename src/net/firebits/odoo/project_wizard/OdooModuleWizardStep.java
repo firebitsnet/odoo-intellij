@@ -4,6 +4,9 @@ import com.intellij.ide.util.projectWizard.ModuleWizardStep;
 
 import javax.swing.*;
 
+/**
+ * @author Amr Abd-Alkrim
+ */
 public class OdooModuleWizardStep extends ModuleWizardStep {
     @Override
     public JComponent getComponent() {

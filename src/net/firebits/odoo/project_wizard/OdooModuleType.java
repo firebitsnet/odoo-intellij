@@ -14,6 +14,9 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
 
+/**
+ * @author Amr Abd-Alkrim
+ */
 public class OdooModuleType extends ModuleType<OdooModuleBuilder> {
     private static final String ID = "FIRE_ODOO_MOULE_TYPE";
 

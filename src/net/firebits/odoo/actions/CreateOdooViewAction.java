@@ -1,4 +1,3 @@
-// Copyright 2000-2017 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file.
 package net.firebits.odoo.actions;
 
 import com.intellij.ide.IdeBundle;
@@ -13,7 +12,7 @@ import org.jetbrains.annotations.NonNls;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * @author yole
+ * @author Amr Abd-Alkrim
  */
 public class CreateOdooViewAction extends CreateFileFromTemplateAction implements DumbAware {
 
@@ -21,7 +20,7 @@ public class CreateOdooViewAction extends CreateFileFromTemplateAction implement
 
 
   public CreateOdooViewAction() {
-    super("Odoo View File", "Creates an Odoo View Python file from the specified template", PythonFileType.INSTANCE.getIcon());
+    super("Odoo View File", "Creates an Odoo View XML file from the specified template", XmlFileType.INSTANCE.getIcon());
   }
 
   @Override
@@ -33,7 +32,15 @@ public class CreateOdooViewAction extends CreateFileFromTemplateAction implement
   protected void buildDialog(Project project, PsiDirectory directory, CreateFileFromTemplateDialog.Builder builder) {
     builder
       .setTitle("New Odoo View file")
-      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooView");
+      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewEmpty")
+      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewBasic")
+      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewAdvanced")
+      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewInherit")
+      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewReport")
+      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewSecurity")
+      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewSequence")
+      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewSettings")
+      .addKind("XML file", XmlFileType.INSTANCE.getIcon(), "OdooViewCronJob");
   }
 
   @Override

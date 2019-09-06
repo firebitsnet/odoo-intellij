@@ -1,0 +1,23 @@
+import json
+
+from odoo import http
+from odoo.http import request
+
+class ExampleApi(http.Controller):
+
+    @http.route(['/api/example/<int:example_id>'], type="http", auth="public", website=True, method=['POST'],
+                csrf=False)
+    def example(self, example_id):
+        values = {}
+
+        data = request.env['example.example'].sudo().search([("id", "=", int(example_id))])
+
+        if data:
+            values['success'] = True
+            values['return'] = "Something"
+        else:
+            values['success'] = False
+            values['error_code'] = 1
+            values['error_data'] = 'No data found!'
+
+        return json.dumps(values)

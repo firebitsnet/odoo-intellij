@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+
+        <record id="res_config_settings_view_form_example" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.example</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="25"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block" data-string="module_example_folder_name" string="Example" data-key="module_example_folder_name" groups="base.group_erp_manager">
+                        <h2>HomeWheel Control Panel Configurations</h2>
+                        <div class="row mt16 o_settings_container" name="example_setting_container">
+                            <div class="col-xs-12 col-md-6 o_setting_box">
+                                <div>
+                                    <label for="example_field"/>
+                                    <div class="text-muted">
+                                        Example Field
+                                    </div>
+                                    <div>
+                                        <field name="example_field"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="action_example_configuration" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'module_example_folder_name'}</field>
+        </record>
+
+        <menuitem id="example_settings" name="Settings" parent="example_config" action="action_example_configuration" groups="base.group_system"/>
+
+    </data>
+</odoo>

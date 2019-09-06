@@ -1,46 +1,42 @@
-// Copyright 2000-2017 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file.
 package net.firebits.odoo.actions;
 
 import com.intellij.ide.IdeBundle;
 import com.intellij.ide.actions.CreateFileFromTemplateAction;
 import com.intellij.ide.actions.CreateFileFromTemplateDialog;
-import com.intellij.ide.fileTemplates.FileTemplateManager;
 import com.intellij.openapi.project.DumbAware;
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.util.text.StringUtil;
 import com.intellij.psi.PsiDirectory;
 import com.jetbrains.python.PythonFileType;
-import com.jetbrains.python.pyi.PyiFileType;
+import icons.OdooIcons;
 import org.jetbrains.annotations.NonNls;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * @author yole
+ * @author Amr Abd-Alkrim
  */
-public class CreateOdooManifestAction extends CreateFileFromTemplateAction implements DumbAware {
+public class CreateOdooAccessAction extends CreateFileFromTemplateAction implements DumbAware {
 
-  @NonNls private static final String DEFAULT_ODOO_MANIFEST_TEMPLATE_PROPERTY = "DefaultOdooManifestFileTemplate";
+  @NonNls private static final String DEFAULT_ODOO_ACCESS_TEMPLATE_PROPERTY = "DefaultOdooAccessFileTemplate";
 
-
-  public CreateOdooManifestAction() {
-    super("Odoo Manifest File", "Creates an Odoo Manifest Python file from the specified template", PythonFileType.INSTANCE.getIcon());
+  public CreateOdooAccessAction() {
+    super("Odoo Access File", "Creates an Odoo Access CSV file from the specified template", PythonFileType.INSTANCE.getIcon());
   }
 
   @Override
   protected String getDefaultTemplateProperty() {
-    return DEFAULT_ODOO_MANIFEST_TEMPLATE_PROPERTY;
+    return DEFAULT_ODOO_ACCESS_TEMPLATE_PROPERTY;
   }
 
   @Override
   protected void buildDialog(Project project, PsiDirectory directory, CreateFileFromTemplateDialog.Builder builder) {
     builder
-      .setTitle("New Odoo Manifest file")
-      .addKind("Python file", PythonFileType.INSTANCE.getIcon(), "OdooManifest");
+      .setTitle("New Odoo Access file")
+      .addKind("CSV file", OdooIcons.OdooIcon, "OdooAccess");
   }
 
   @Override
   protected String getActionName(PsiDirectory directory, @NotNull String newName, String templateName) {
-    return "Create Odoo Manifest script " + newName;
+    return "Create Odoo Access " + newName;
   }
 
   @Override
@@ -56,6 +52,6 @@ public class CreateOdooManifestAction extends CreateFileFromTemplateAction imple
 
   @Override
   public boolean equals(Object obj) {
-    return obj instanceof CreateOdooManifestAction;
+    return obj instanceof CreateOdooAccessAction;
   }
 }
