@@ -65,9 +65,24 @@ Odoo is a suite of open source business apps that cover all your company needs:
 <h4>Current Features</h4>
 <ul>
 <li>Collection of code snippets for Odoo</li>
+</ul>
+
+![XML Snippets](img/auto1.png)
+
+![Python Snippets](img/auto2.png)
+
+<ul>
 <li>Create New Odoo Files in New Menu (Model - View - Access)</li>
+</ul>
+
+![New File Menu](img/new_menu.png)
+
+![New File Creation](img/new_menu_file.png)
+
+<ul>
 <li>Create new projects from the IDE Welcome screen using Odoo CLI or built-in template for Odoo</li>
 </ul>
+
 <h4>Coming Soon Features (In Progress)</h4>
 <ul>
 <li>Code completion for Odoo in Python files (Soon)</li>

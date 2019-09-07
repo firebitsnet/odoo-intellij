@@ -18,12 +18,6 @@
         </p>
 
         <p></p>
-        <h3>Download plugin</h3>
-
-        <p><a href="https://github.com/firebitsnetwork/odoo-intellij/releases/download/master/FireOdoo.jar">Download Plugin JAR</a></p>
-        <p><a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Download Plugin From JetBrains's Store</a></p>
-
-        <p></p>
 
         <h2>What is Odoo?</h2>
 
@@ -47,9 +41,6 @@
         <h3>Supported Odoo Versions</h3>
         <p>Download Odoo from <a href="https://www.odoo.com/page/download">here</a></p>
 
-        [![Hex.pm](https://img.shields.io/badge/Odoo-v12-blue)](https://www.odoo.com/documentation/12.0/)
-        [![Hex.pm](https://img.shields.io/badge/Odoo-v11-blue)](https://www.odoo.com/documentation/11.0/)
-
         <h2>Getting started</h2>
         <ul>
         <li>Open your Odoo project.</li>
@@ -60,9 +51,24 @@
         <h4>Current Features</h4>
         <ul>
         <li>Collection of code snippets for Odoo</li>
-        <li>Create New Odoo Files in New Menu (Model - View - Manifest)</li>
+        </ul>
+
+        <img src="https://i.ibb.co/JKYMJgq/auto1.png" />
+        <p></p>
+        <img src="https://i.ibb.co/4Ms3PnV/auto2.png" />
+
+        <ul>
+        <li>Create New Odoo Files in New Menu (Model - View - Access)</li>
+        </ul>
+
+        <img src="https://i.ibb.co/sRNnWP7/new-menu.png" />
+        <p></p>
+        <img src="https://i.ibb.co/3c74CFX/new-menu-file.png" />
+
+        <ul>
         <li>Create new projects from the IDE Welcome screen using Odoo CLI or built-in template for Odoo</li>
         </ul>
+
         <h4>Coming Soon Features (In Progress)</h4>
         <ul>
         <li>Code completion for Odoo in Python files (Soon)</li>
@@ -118,12 +124,6 @@
         </ul>
 
         <h2>Developed & Maintained by</h2>
-        ![GitHub search hit counter](https://img.shields.io/github/search/firebitsnetwork/odoo-intellij/goto)
-        ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/firebitsnetwork/odoo-intellij)
-        ![GitHub contributors](https://img.shields.io/github/contributors/firebitsnetwork/odoo-intellij)
-        ![GitHub last commit](https://img.shields.io/github/last-commit/firebitsnetwork/odoo-intellij)
-        ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/firebitsnetwork/odoo-intellij)
-
         <p><img src="https://i.ibb.co/j4vs0x8/Logo300.png" width="100px"/></p>
         <p><a href="https://firebits.net">FireBits Software Solutions</a></p>
 
