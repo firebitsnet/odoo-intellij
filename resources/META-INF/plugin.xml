@@ -139,7 +139,7 @@
 
   <change-notes>
     v1.0.1 Odoo Live Templates
-    v1.1.1 Create New Odoo Files (Model - View - Manifest)
+    v1.1.1 Create New Odoo Files (Model - View - Access)
   </change-notes>
 
   <idea-version since-build="173.0"/>
@@ -168,8 +168,8 @@
     <internalFileTemplate name="OdooViewSettings"/>
     <internalFileTemplate name="OdooViewCronJob"/>
 
-    <moduleBuilder builderClass="net.firebits.odoo.project_wizard.OdooModuleBuilder" id="DEMO_STEP" order="first"/>
-    <moduleType id="FIRE_ODOO_MOULE_TYPE" implementationClass="net.firebits.odoo.project_wizard.OdooModuleType"/>
+<!--    <moduleBuilder builderClass="net.firebits.odoo.project_wizard.OdooModuleBuilder" id="DEMO_STEP" order="first"/>-->
+<!--    <moduleType id="FIRE_ODOO_MOULE_TYPE" implementationClass="net.firebits.odoo.project_wizard.OdooModuleType"/>-->
   </extensions>
 
   <actions>

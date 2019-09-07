@@ -7,7 +7,7 @@ class #[[$ModelName$]]# (http.Controller):
 
     @http.route(['/api/#[[$APiRoute$]]#/<int:#[[$Var$]]#>'], type="http", auth="public", website=True, method=['POST'],
                 csrf=False)
-    def #[[$FunName$]]# (self, #[[$Var$]]# ):
+    def example (self, #[[$Var$]]# ):
         values = {}
 
         data = request.env['#[[$ProjectName$]]#.#[[$TableName$]]#'].sudo().search([("id", "=", int(#[[$Var$]]#))])
