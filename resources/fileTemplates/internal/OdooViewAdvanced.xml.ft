@@ -1,82 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        
-       <record id="view_example_form" model="ir.ui.view">
-            <field name="name">example.example.form</field>
-            <field name="model">example.example</field>
+
+       <record id="#[[$ModelName$]]#_form_view" model="ir.ui.view">
+            <field name="name">#[[$ProjectName$]]#.#[[$ModelName$]]#.form</field>
+            <field name="model">#[[$ProjectName$]]#.#[[$ModelName$]]#</field>
             <field name="arch" type="xml">
-                <form string="Example">
-                    <sheet>
-                        <div class="oe_title">
-                            <label for="example_title"/>
-                            <h1>
-                                <field name="example_title" placeholder="Title"/>
-                            </h1>
-                        </div>
+                <form string="#[[$ModelTitle$]]#">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="#[[$END$]]#example_title"/>
+                        <h1>
+                            <field name="example_title" placeholder="Title"/>
+                        </h1>
+                    </div>
+                    <group>
                         <group>
-                            <group>
-                                <field name="create_date" />
-                            </group>
-                            <group>
-                                <field name="example_field"/>
-                                <field name="example_field"/>
-                            </group>
+                            <field name="create_date" />
                         </group>
-                    </sheet>
+                        <group>
+                            <field name="example_field"/>
+                        </group>
+                    </group>
+                </sheet>
                 </form>
             </field>
         </record>
 
-        <record id="view_example_tree" model="ir.ui.view">
-            <field name="name">example.example.tree</field>
-            <field name="model">example.example</field>
+        <record id="#[[$ModelName$]]#_tree_view" model="ir.ui.view">
+            <field name="name">#[[$ProjectName$]]#.#[[$ModelName$]]#.tree</field>
+            <field name="model">#[[$ProjectName$]]#.#[[$ModelName$]]#</field>
             <field name="arch" type="xml">
-                <tree string="Example">
+                <tree string="#[[$ModelTitle$]]#">
                     <field name="create_date"/>
                     <field name="example_field"/>
                 </tree>
             </field>
         </record>
 
-        <record id="view_example_calendar" model="ir.ui.view">
-            <field name="name">example.example.calendar</field>
-            <field name="model">example.example</field>
+        <record id="#[[$ModelName$]]#_calendar_view" model="ir.ui.view">
+            <field name="name">#[[$ProjectName$]]#.#[[$ModelName$]]#.calendar</field>
+            <field name="model">#[[$ProjectName$]]#.#[[$ModelName$]]#</field>
             <field name="arch" type="xml">
-                <calendar string="Example" date_start="example_date_field" color="example_boolean_field">
+                <calendar string="#[[$ModelTitle$]]#" date_start="example_date_field" color="example_boolean_field">
                     <field name="example_field"/>
                     <field name="example_field" widget="monetary"/>
                 </calendar>
             </field>
         </record>
 
-        <record id="view_example_graph" model="ir.ui.view">
-            <field name="name">example.example.graph</field>
-            <field name="model">example.example</field>
+        <record id="#[[$ModelName$]]#_graph_view" model="ir.ui.view">
+            <field name="name">#[[$ProjectName$]]#.#[[$ModelName$]]#.graph</field>
+            <field name="model">#[[$ProjectName$]]#.#[[$ModelName$]]#</field>
             <field name="arch" type="xml">
-                <graph string="Example">
+                <graph string="#[[$ModelTitle$]]#">
                     <field name="example_field"/>
                     <field name="example_field" type="measure"/>
                 </graph>
             </field>
         </record>
 
-        <record id="view_example_pivot" model="ir.ui.view">
-            <field name="name">example.example.pivot</field>
-            <field name="model">example.example</field>
+        <record id="#[[$ModelName$]]#_pivot_view" model="ir.ui.view">
+            <field name="name">#[[$ProjectName$]]#.#[[$ModelName$]]#.pivot</field>
+            <field name="model">#[[$ProjectName$]]#.#[[$ModelName$]]#</field>
             <field name="arch" type="xml">
-                <pivot string="Example">
+                <pivot string="#[[$ModelTitle$]]#">
                     <field name="example_field" type="row"/>
                     <field name="example_field" type="measure"/>
                 </pivot>
             </field>
         </record>
 
-        <record id="view_example_search" model="ir.ui.view">
-            <field name="name">example.example.search</field>
-            <field name="model">example.example</field>
+        <record id="#[[$ModelName$]]#_search_view" model="ir.ui.view">
+            <field name="name">#[[$ProjectName$]]#.#[[$ModelName$]]#.search</field>
+            <field name="model">#[[$ProjectName$]]#.#[[$ModelName$]]#</field>
             <field name="arch" type="xml">
-                <search string="Example">
+                <search string="#[[$ModelTitle$]]#">
                     <group expand="1" string="Group By">
                         <filter string="Example Field" name="example_field" domain="[]" context="{'group_by':'example_field'}"/>
                     </group>
@@ -84,9 +83,9 @@
             </field>
         </record>
 
-        <record id="view_example_kanban" model="ir.ui.view">
-            <field name="name">example.example.kanban</field>
-            <field name="model">example.example</field>
+        <record id="#[[$ModelName$]]#_kanban_view" model="ir.ui.view">
+            <field name="name">#[[$ProjectName$]]#.#[[$ModelName$]]#.kanban</field>
+            <field name="model">#[[$ProjectName$]]#.#[[$ModelName$]]#</field>
             <field name="arch" type="xml">
                 <kanban>
                     <field name="id"/>
@@ -106,21 +105,21 @@
             </field>
         </record>
 
-        <record id="example_act_window" model="ir.actions.act_window">
-            <field name="name">Examples</field>
+        <record id="#[[$ModelName$]]#_act_window" model="ir.actions.act_window">
+            <field name="name">#[[$ModelTitle$]]#</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="res_model">example.example</field>
+            <field name="res_model">#[[$ProjectName$]]#.#[[$ModelName$]]#</field>
             <field name="view_type">form</field>
             <field name="view_mode">kanban,tree,form,calendar,graph,pivot</field>
             <field name="context">{"search_default_example_field":1}</field>
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">
-                    There is no examples click here to add new example.
+                    There is no examples click here to add new #[[$ModelTitle$]]#.
                 </p>
             </field>
         </record>
 
-        <menuitem name="Examples" id="examples_menu" parent="your_root_menu" action="example_act_window"/>
+        <menuitem name="#[[$ModelTitle$]]#" id="#[[$ModelName$]]#_menu" parent="your_root_menu" action="#[[$ModelName$]]#_act_window"/>
 
     </data>
 </odoo>

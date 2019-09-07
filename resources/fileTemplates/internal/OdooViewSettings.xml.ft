@@ -2,19 +2,19 @@
 <odoo>
 	<data>
 
-        <record id="res_config_settings_view_form_example" model="ir.ui.view">
-            <field name="name">res.config.settings.view.form.inherit.example</field>
+        <record id="res_config_settings_view_form_#[[$ProjectName$]]#" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.#[[$ProjectName$]]#</field>
             <field name="model">res.config.settings</field>
             <field name="priority" eval="25"/>
             <field name="inherit_id" ref="base.res_config_settings_view_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//div[hasclass('settings')]" position="inside">
-                    <div class="app_settings_block" data-string="module_example_folder_name" string="Example" data-key="module_example_folder_name" groups="base.group_erp_manager">
+                    <div class="app_settings_block" data-string="#[[$ProjectName$]]#" string="#[[$ProjectTitle$]]#" data-key="#[[$ProjectName$]]#" groups="base.group_erp_manager">
                         <h2>HomeWheel Control Panel Configurations</h2>
-                        <div class="row mt16 o_settings_container" name="example_setting_container">
+                        <div class="row mt16 o_settings_container" name="#[[$ProjectName$]]#_setting_container">
                             <div class="col-xs-12 col-md-6 o_setting_box">
                                 <div>
-                                    <label for="example_field"/>
+                                    <label for="#[[$END$]]#example_field"/>
                                     <div class="text-muted">
                                         Example Field
                                     </div>
@@ -29,16 +29,16 @@
             </field>
         </record>
 
-        <record id="action_example_configuration" model="ir.actions.act_window">
+        <record id="action_#[[$ProjectName$]]#_configuration" model="ir.actions.act_window">
             <field name="name">Settings</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">res.config.settings</field>
             <field name="view_mode">form</field>
             <field name="target">inline</field>
-            <field name="context">{'module' : 'module_example_folder_name'}</field>
+            <field name="context">{'module' : '#[[$ProjectName$]]#'}</field>
         </record>
 
-        <menuitem id="example_settings" name="Settings" parent="example_config" action="action_example_configuration" groups="base.group_system"/>
+        <menuitem id="#[[$ProjectName$]]#_settings" name="Settings" parent="your_root_menu" action="action_#[[$ProjectName$]]#_configuration" groups="base.group_system"/>
 
     </data>
 </odoo>

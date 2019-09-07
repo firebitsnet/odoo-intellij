@@ -1,8 +1,9 @@
 from odoo import fields, models, api
-class $class_name$(models.Model):
-    _name = '$module_name$'
-    _description = '$class_name$'
+class #[[$ModelName$]]# (models.Model):
+    _name = '#[[$ProjectName$]]#.#[[$TableName$]]#'
+    _description = '#[[$Description$]]#'
 
     name = fields.Char()
-    $END$
+    #[[$END$]]#
+
 

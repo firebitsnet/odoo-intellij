@@ -2,23 +2,24 @@
 <odoo>
 	<data>
 
-        <record model="ir.module.category" id="example_category">
-            <field name="name">Example</field>
+        <record model="ir.module.category" id="#[[$ProjectName$]]#_category">
+            <field name="name">#[[$ProjectTitle$]]#</field>
             <field name="sequence">1</field>
         </record>
 
-        <record id="group_example_employee" model="res.groups">
+        <record id="group_#[[$ProjectName$]]#_employee" model="res.groups">
             <field name="name">Employee</field>
             <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
-            <field name="category_id" ref="example.example_category"/>
+            <field name="category_id" ref="#[[$ProjectName$]]#.#[[$ProjectName$]]#_category"/>
         </record>
 
-        <record id="group_example_manager" model="res.groups">
+        <record id="group_#[[$ProjectName$]]#_manager" model="res.groups">
             <field name="name">Manager</field>
-            <field name="category_id" ref="example.example_category"/>
-            <field name="implied_ids" eval="[(4, ref('group_example_employee'))]"/>
+            <field name="category_id" ref="#[[$ProjectName$]]#.#[[$ProjectName$]]#_category"/>
+            <field name="implied_ids" eval="[(4, ref('group_#[[$ProjectName$]]#_employee'))]"/>
             <field name="users" eval="[(4, ref('base.user_root'))]"/>
         </record>
 
+        #[[$END$]]#
     </data>
 </odoo>

@@ -117,6 +117,11 @@ Odoo is a suite of open source business apps that cover all your company needs:
 
 <p></p>
 
+<h2>Support Plugin Development</h2>
+<ul>
+<li> Patreon (<a href="https://patreon.com/amrabdalkrim">Amr Abd-Alkrim</a>)</li>
+</ul>
+
 <h2>Developed & Maintained by</h2>
 
 ![GitHub search hit counter](https://img.shields.io/github/search/firebitsnetwork/odoo-intellij/goto)

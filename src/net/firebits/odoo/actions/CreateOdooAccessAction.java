@@ -30,7 +30,7 @@ public class CreateOdooAccessAction extends CreateFileFromTemplateAction impleme
   @Override
   protected void buildDialog(Project project, PsiDirectory directory, CreateFileFromTemplateDialog.Builder builder) {
     builder
-      .setTitle("New Odoo Access file")
+      .setTitle("New Odoo Access file (name it 'ir.model.access.csv')")
       .addKind("ir.model.access.csv file", OdooIcons.OdooIcon, "OdooAccess");
   }
 

@@ -2,12 +2,12 @@
 <odoo>
     <data noupdate="1">
 
-          <record id="example_sequence" model="ir.sequence">
-              <field name="name">Example Sequence</field>
-              <field name="code">example.example.seq</field>
-              <field name="prefix">EX</field>
-              <field name="padding">7</field>
-          </record>
-    
+        <record id="#[[$SequenceName$]]#_sequence" model="ir.sequence">
+            <field name="name">#[[$SequenceTitle$]]#</field>
+            <field name="code">#[[$ProjectName$]]#.#[[$ModelName$]]#.seq</field>
+            <field name="prefix">#[[$Prefix$]]#</field>
+            <field name="padding">7</field>
+        </record>
+        #[[$END$]]#
     </data>
 </odoo>

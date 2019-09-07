@@ -2,13 +2,13 @@
 <odoo>
     <data>
         
-        <record id="example_form_inherit" model="ir.ui.view">
-            <field name="name">example.example.form</field>
-            <field name="model">example.example</field>
-            <field name="inherit_id" ref="example.view_example_form"/>
+        <record id="#[[$ModelName$]]#_form_inherit" model="ir.ui.view">
+            <field name="name">#[[$ProjectName$]]#.#[[$ModelName$]]#.form</field>
+            <field name="model">#[[$ProjectName$]]#.#[[$ModelName$]]#</field>
+            <field name="inherit_id" ref="#[[$ProjectName$]]#.#[[$ViewExternalID$]]#"/>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='example_field']" position="replace">
+                <xpath expr="//field[@name='#[[$END$]]#example_field']" position="replace">
                     <field name="example_field2"/>
                 </xpath>
                 <xpath expr="//field[@name='example_field']" position="attributes">
@@ -16,6 +16,5 @@
                 </xpath>
             </field>
         </record>
-    
     </data>
 </odoo>
