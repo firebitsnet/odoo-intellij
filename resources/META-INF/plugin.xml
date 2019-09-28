@@ -138,13 +138,16 @@
   <category>Framework</category>
 
   <change-notes>
-    v1.0.1 Odoo Live Templates
-    v1.1.1 Create New Odoo Files (Model - View - Access)
+    <![CDATA[
+      <p>v1.1.1 Create New Odoo Files (Model - View - Access)</p>
+      <p>v1.0.1 Odoo Live Templates</p>
+    ]]>
   </change-notes>
 
   <idea-version since-build="173.0"/>
 
   <depends>com.intellij.modules.python</depends>
+  <depends>com.intellij.modules.java</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <framework.type implementation="net.firebits.odoo.framwork.OdooFramework"/>
