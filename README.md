@@ -16,6 +16,8 @@ This <a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Odoo-Intellij Pl
 and <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> IDEs.
 </p>
 
+<h3>See How to use it in the <a href="https://medium.com/firebits/odoo-intellij-6070a182d9c9">Technical Documentation</a></h3>
+
 <p></p>
 <h3>Plugin Dependencies</h3>
 <p>
@@ -81,10 +83,7 @@ Odoo is a suite of open source business apps that cover all your company needs:
 
 <ul>
 <li>Create new projects from the IDE Welcome screen using Odoo CLI or built-in template for Odoo</li>
-</ul>
 
-<h4>Coming Soon Features (In Progress)</h4>
-<ul>
 <li>Code completion for Odoo in Python files (Soon)</li>
 <li>Completion for components, built-in and custom directives, and methods in templates (Soon)</li>
 <li>Navigation from the component, custom directives and event handlers to their definition (Soon)</li>
