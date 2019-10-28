@@ -84,9 +84,9 @@ Odoo is a suite of open source business apps that cover all your company needs:
 <ul>
 <li>Create new projects from the IDE Welcome screen using Odoo CLI or built-in template for Odoo</li>
 
-<li>Code completion for Odoo in Python files (Soon)</li>
-<li>Completion for components, built-in and custom directives, and methods in templates (Soon)</li>
-<li>Navigation from the component, custom directives and event handlers to their definition (Soon)</li>
+<li>Code completion for Odoo in Python files </li>
+<li>Completion for components, built-in and custom directives, and methods in templates </li>
+<li>Navigation from the component, custom directives and event handlers to their definition </li>
 </ul>
 
 <h2>Documentation & Tutorials</h2>

@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>net.firebits.odoo</id>
   <name>Odoo</name>
-  <version>1.2.0</version>
+  <version>1.2.1</version>
   <vendor email="tech@firebits.net" url="http://www.firebits.net">FireBits</vendor>
   <description>
       <![CDATA[
@@ -106,10 +106,9 @@
   <idea-version since-build="173.0"/>
 
   <depends>com.intellij.modules.python</depends>
-  <depends>com.intellij.modules.java</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <framework.type implementation="net.firebits.odoo.framwork.OdooFramework"/>
+<!--    <framework.type implementation="net.firebits.odoo.framwork.OdooFramework"/>-->
 
     <defaultLiveTemplatesProvider implementation="net.firebits.odoo.template.OdooLiveTemplateProvider"/>
     <liveTemplateContext implementation="net.firebits.odoo.template.OdooPythonContextMenu"/>
