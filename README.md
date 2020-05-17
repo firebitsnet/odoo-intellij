@@ -2,13 +2,13 @@
 
 <h1>Odoo-Intellij Plugin</h1>
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/firebitsnetwork/odoo-intellij/graphs/commit-activity)
-[![GitHub issues](https://img.shields.io/github/issues/firebitsnetwork/odoo-intellij)](https://github.com/firebitsnetwork/odoo-intellij/issues)
-[![Hex.pm](https://img.shields.io/hexpm/l/plug)](https://github.com/firebitsnetwork/odoo-intellij/blob/master/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/firebitsnet/odoo-intellij/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/firebitsnet/odoo-intellij)](https://github.com/firebitsnet/odoo-intellij/issues)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug)](https://github.com/firebitsnet/odoo-intellij/blob/master/LICENSE)
 [![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/12952-odoo)](https://plugins.jetbrains.com/plugin/12952-odoo/)
 [![JetBrains IntelliJ plugins](https://img.shields.io/jetbrains/plugin/d/12952-odoo)](https://plugins.jetbrains.com/plugin/12952-odoo/)
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/firebitsnetwork/odoo-intellij?include_prereleases)](https://github.com/firebitsnetwork/odoo-intellij/releases/tag/master)
-[![GitHub repo size](https://img.shields.io/github/repo-size/firebitsnetwork/odoo-intellij)](https://github.com/firebitsnetwork/odoo-intellij)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/firebitsnet/odoo-intellij?include_prereleases)](https://github.com/firebitsnet/odoo-intellij/releases/tag/master)
+[![GitHub repo size](https://img.shields.io/github/repo-size/firebitsnet/odoo-intellij)](https://github.com/firebitsnet/odoo-intellij)
 
 <p>
 This <a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Odoo-Intellij Plugin</a> Adds Support for developing 
@@ -27,7 +27,7 @@ Installing this plugin will also install the <a href="https://plugins.jetbrains.
 <p></p>
 <h3>Download plugin</h3>
 
-<p><a href="https://github.com/firebitsnetwork/odoo-intellij/releases/download/master/FireOdoo.jar">Download Plugin JAR</a></p>
+<p><a href="https://github.com/firebitsnet/odoo-intellij/releases/download/master/FireOdoo.jar">Download Plugin JAR</a></p>
 <p><a href="https://plugins.jetbrains.com/plugin/12952-odoo/">Download Plugin From JetBrains's Store</a></p>
 
 <p></p>
@@ -105,21 +105,21 @@ Odoo is a suite of open source business apps that cover all your company needs:
 
 <h4>Plugin Documentation</h4>
 <ul>
-<li>Plugin <a href="https://github.com/firebitsnetwork/odoo-intellij/wiki">Wiki</a></li>
+<li>Plugin <a href="https://github.com/firebitsnet/odoo-intellij/wiki">Wiki</a></li>
 </ul>
 
 <p></p>
 
 <h2>Help & Feedback</h2>
 <p>
- Please follow <a href="https://www.twitter.com/firebitsnetwork">@firebitsnetwork</a> for plugin updates and to share
+ Please follow <a href="https://www.twitter.com/firebitsnet">@firebitsnet</a> for plugin updates and to share
  feedback and questions. You can also email us at <a href="mailto:tech@firebits.net">tech@firebits.net</a>.
 </p>
 
 <p></p>
 
 <h3>Bug Tracker</h3>
-<p>Please report any issues on the <a href="https://github.com/firebitsnetwork/odoo-intellij/issues">tracker</a>.</p>
+<p>Please report any issues on the <a href="https://github.com/firebitsnet/odoo-intellij/issues">tracker</a>.</p>
 
 <p></p>
 
@@ -138,18 +138,18 @@ Odoo is a suite of open source business apps that cover all your company needs:
 
 <h2>Developed & Maintained by</h2>
 
-![GitHub search hit counter](https://img.shields.io/github/search/firebitsnetwork/odoo-intellij/goto)
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/firebitsnetwork/odoo-intellij)
-![GitHub contributors](https://img.shields.io/github/contributors/firebitsnetwork/odoo-intellij)
-![GitHub last commit](https://img.shields.io/github/last-commit/firebitsnetwork/odoo-intellij)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/firebitsnetwork/odoo-intellij)
+![GitHub search hit counter](https://img.shields.io/github/search/firebitsnet/odoo-intellij/goto)
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/firebitsnet/odoo-intellij)
+![GitHub contributors](https://img.shields.io/github/contributors/firebitsnet/odoo-intellij)
+![GitHub last commit](https://img.shields.io/github/last-commit/firebitsnet/odoo-intellij)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/firebitsnet/odoo-intellij)
 
 <p><img src="https://i.ibb.co/j4vs0x8/Logo300.png" width="100px"/></p>
 <p><a href="https://firebits.net">FireBits Software Solutions</a></p>
 
 <h3>Social Media</h3>
-<p><a href="https://github.com/firebitsnetwork">Github</a></p>
-<p><a href="https://linkedin.com/company/firebitsnetwork">Linkedin</a></p>
+<p><a href="https://github.com/firebitsnet">Github</a></p>
+<p><a href="https://linkedin.com/company/firebitsnet">Linkedin</a></p>
 <p><a href="https://fb.com/firebits">Facebook</a></p>
-<p><a href="https://twitter.com/firebitsnetwork">Twitter</a></p>
-<p><a href="https://instagram.com/firebitsnetwork">Instagram</a></p>
+<p><a href="https://twitter.com/firebitsnet">Twitter</a></p>
+<p><a href="https://instagram.com/firebitsnet">Instagram</a></p>
